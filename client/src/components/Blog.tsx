@@ -19,9 +19,8 @@ function Blog() {
 // Purana code:
 // const API_URI = "http://localhost:9000/api";
 
-// Naya code:
-const API_URI = import.meta.env.VITE_API_URI || "/api";
-
+// Direct apni live URL ka absolute path dein taake 404 ka chance hi khatam ho jaye
+const API_URI = "https://clario-blog-app.vercel.app/api";
 
     //Update & Create
     async function handleSubmit() {
