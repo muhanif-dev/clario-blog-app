@@ -19,6 +19,10 @@
       "dest": "server/server.ts"
     },
     {
+      "src": "/api",
+      "dest": "server/server.ts"
+    },
+    {
       "src": "/(.*)",
       "dest": "client/$1"
     }
